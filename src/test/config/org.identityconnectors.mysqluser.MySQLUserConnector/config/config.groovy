@@ -36,6 +36,7 @@
 // enclosed by brackets [] replaced by your own identifying information:
 // "Portions Copyrighted [year] [name of copyright owner]"
 // -----------
+// Portions Copyrighted ForgeRock AS 2015
 // -- END LICENSE
 //
 // @author Zdenek Louzensky, David Adam
@@ -45,7 +46,6 @@
  *  ----------- Contract Tests configuration ------------
  *  +---------------------------------------------------+
  */
-import org.identityconnectors.contract.data.groovy.Lazy;
 import org.identityconnectors.common.security.GuardedString
 
 /* Junit Connector configuration */
@@ -87,7 +87,6 @@ testsuite {
     Validate.iterations="3"
 
     /* AuthenticationApiOpTests: */
-    Authentication.__ACCOUNT__.username=Lazy.get("i0.Authentication.__ACCOUNT__.__NAME__")
     Authentication.__ACCOUNT__.wrong.password=new GuardedString("bogus".toCharArray())
 
     // Connector WRONG configuration for ValidateApiOpTests
