@@ -35,19 +35,15 @@
     <packaging>bundle</packaging>
     <name>MySQLUser Connector</name>
     <description>The MySQLUser Connector capabilities are pretty limited. The connector supports just a user creation from "Modeluser" template</description>
-    <url>https://openicf.forgerock.org/connectors/mysqluser-connector</url>
+    <url>https://github.com/ForgeRock/openicf-mysqluser-connector</url>
     <issueManagement>
         <system>jira</system>
-        <url>https://bugster.forgerock.org/jira/browse/OPENICF/component/10176</url>
+        <url>https://github.com/ForgeRock/openicf-mysqluser-connector/issues</url>
     </issueManagement>
-    <ciManagement>
-        <system>jenkins</system>
-        <url>https://ci.forgerock.org/view/OpenICF/job/OpenICF - mysqluser-connector - postcommit/</url>
-    </ciManagement>
     <scm>
-        <connection>scm:git:ssh://git@stash.forgerock.org:7999/openicf/mysqluser-connector.git</connection>
-        <developerConnection>scm:git:ssh://git@stash.forgerock.org:7999/openicf/mysqluser-connector.git</developerConnection>
-        <url>http://stash.forgerock.org/projects/OPENICF/repos/mysqluser-connector/browse/</url>
+        <connection>scm:git:git@github.com:forgerock/openicf-mysqluser-connector.git</connection>
+        <developerConnection>scm:git:git@github.com:forgerock/openicf-mysqluser-connector.git</developerConnection>
+        <url>scm:git:git@github.com:forgerock/openicf-mysqluser-connector.git</url>
     </scm>
     <properties>
         <connectorPackage>org.identityconnectors.mysqluser</connectorPackage>
